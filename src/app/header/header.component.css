@@ -1,0 +1,55 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav h1{
+    color: rgb(195, 124, 32);
+    margin: 0;
+    font-size: 30px;
+}
+.nav ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.nav li a{
+    text-decoration: none;
+    color: rgb(195, 124, 32);
+}
+/* .nav .navsearch{
+    margin-top: 5px;
+    flex: 1;
+    display: flex;
+    margin: left;
+    margin-left: 5%;
+    margin-right: 5%;
+} */
+.nav .navsearch input{
+    flex: 1;
+    color: rgb(27, 21, 15);
+    border: 1px solid rgb(139, 168, 35);
+    height: 35px;
+    border-right: 0px;
+    width: 610px;
+}
+
+.nav .navsearch button{
+    color: rgb(195, 124, 32);
+    border: 1px solid rgb(139, 168, 35);
+    height: 39px;
+    border-left: 0px;
+}
+
+/* .navsearch{
+    flex: 1;
+    color: rgb(27, 21, 15);
+    border: 1px solid rgb(139, 168, 35);
+    height: 35px;
+    border-right: 0px;
+    width: 410px;
+} */
